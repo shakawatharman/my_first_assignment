@@ -33,7 +33,6 @@ h1{
     float: left;
     padding-top: 17%;
 }
-
 .stylingfont{
     color: rgb(236, 13, 87);
     font-size: 70px;    
@@ -67,3 +66,48 @@ h1{
     padding-top: 6%;
 }
 /*third section*/
+#third-part{
+    background-image: url(personal-website/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 700px;
+    overflow: hidden;
+}
+.latest-work{
+    padding-top: 100px;
+    width: 27%;
+    margin-left: 3%;
+    padding-left: 2%;
+    float: left;
+}
+.latest-work img{
+    width: 95%;
+}
+#third-part h1{
+    text-align: center;
+}
+/*fourth section*/
+#fourth-part{
+    background-image: url(personal-website/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 800px;
+    width: 100%;
+    text-align: center;
+    font-weight: 700;
+}
+#feedback{
+    color: white;
+    background-image: linear-gradient(90deg,rgb(248, 65, 101),rgb(230, 79, 65));
+    padding: 15px 32px;
+    border-radius: 5px;
+    margin: 4px 3px;
+    border: none;
+    width: 450px;
+    margin: auto;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
+}
